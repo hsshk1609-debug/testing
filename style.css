@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+#logo{
+    color: red;
+    margin-left: 20px;
+    text-transform:uppercase ;
+    font-weight: bolder;
+}
+#sign{
+    height: 30px;
+    width: 60px;
+    
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+   transition-delay: 0;
+   
+}
+#sign:hover{
+    height: 35px;
+    width: 65px;
+    background-color: blue;
+}
+#sign:active{
+    height: 35px;
+    width: 65px;
+    background-color:purple;
+}
+#main{
+     background-color: black;
+     opacity: 0.6;
+    background-image: url("image.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+
+
+}
+#heading{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-family: Arial;
+    font-size: 25px;
+   position: relative;
+
+
+
+}
+#search{
+     
+    height: 46px;
+    display: flex;
+    border: none;
+   
+   
+
+
+}
+#ser{
+    
+    border: none;
+     width: 300px;
+     border-radius:5px 0 0 5px;
+    
+}
+#btn{
+    background-color: red;
+    color: white;
+     border: none;
+     width: 100px; 
+     border-radius: 0 5px 5px 0;
+      transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+   transition-delay: 0;
+}
+#btn:hover{
+    background-color: blue;
+}
+#btn:active{
+    background-color:purple;
+}
+
+#line{
+    height: 5px;
+    width: 100%;
+    background:linear-gradient( to right,black,purple,red,purple,black);
+   
+}
+
+#movie{
+   
+    height: 50vh;
+
+}
+#item{
+    display: flex;
+    height: 150px;
+    padding: 40px;
+    position: relative;
+    gap: 10px;
+}
+#item div{
+   
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    padding-top:120px ;
+    width: 100px;
+
+    
+
+}
+.box{
+     display: flex;
+   
+    padding: 40px;
+    position: relative;
+    gap: 10px;
+   
+     margin: 25px;
+
+
+}
+.box div{
+     height: 200px;
+     width: 300px;
+     border-radius: 15px;
+     border: 2px solid black;
+     padding: 5px;
+     background:linear-gradient(rgb(48, 18, 48),rgb(56, 53, 53)) ;
+     font-size: small;
+     
+}
+#icon img{
+    height: 30px;
+    width: 30px;
+    padding: 5px; 
+    position: relative;
+    top: 70px;
+   
+    
+}
